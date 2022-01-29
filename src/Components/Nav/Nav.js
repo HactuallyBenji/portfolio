@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <h1>Hello</h1>
+        <h1>HactuallyBenji</h1>
     );
 };
 
