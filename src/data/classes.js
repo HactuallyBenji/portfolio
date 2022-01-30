@@ -65,5 +65,65 @@ export const classes = [
             'Pointers and memory management',
             'Linked lists',
         ]
-    }
+    },
+    {
+        title:'Fundamental Programming: II',
+        code:'CSC115',
+        description:'This course introduces two fundamental programming concepts: abstract data types and recursion; It examines and applies these concepts within the context of an object-oriented approach to programming; It introduces techniques for reasoning about the efficiency of algorithms and data structures; It studies foundational approaches to organizing data and computations.',
+        units: 1.5,
+        grade: 'B',
+        topics: [
+            'A review of programming in Java',
+            'The design, definition and manipulation of simple data objects',
+            'The implementation of lists, including both sequential (linked) and random access (array) variations',
+            'The implementation of stacks, queues, binary trees, and hash tables; with applications',
+            'An introduction to polymorphism: class hierarchies, interfaces, and generic types',
+            'Problem decomposition using recursion and divide-and-conquer strategies',
+            'Techniques for describing the time and space requirements of data structures and their operations',
+            'The efficiency of common searching and sorting approaches',
+        ]
+    },
+    {
+        title:'World Wide Web and Mobile Applications',
+        code:'CSC130',
+        description:'An introduction for non-specialists to the Internet, the World-Wide-Web (WWW), and front-end application development. Students will learn how to create dynamic web applications by making numerous web technologies work together. Each lab, homework, and project in the course will consist of building a rich, interactive, dynamic web application, using basic computer science and programming principles.',
+        units: 1.5,
+        grade: 'A+',
+        topics: [
+            'Internet and the WWW',
+            'W3C Standards and HTML5',
+            'CSS',
+            'Javascript',
+            'Web Page Design Tools, Multimedia, Dynamic Web Content',
+            'Web Application Development Tools and Technologies',
+        ]
+    },
+    {
+        title:'Algorithms and Data Structures: I',
+        code:'CSC225',
+        description:'The goal of this class is to illustrate this process and develop these skills starting with some traditional problems, algorithms and data structures. The performance of a program on small inputs (typical in introductory computer science courses) gives no indication of how an algorithm will perform on the large inputs often found in real applications. Paper and pencil techniques are presented for analysing algorithms for time and space requirements on large inputs without requiring the effort of implementation. Algorithms are compared with respect to their worst, average, and best case performances. The techniques learned in the course are applied to well-studied classical problems including searching, sorting, and some graph theory applications. The study of abstract data types is continued from CSC 115 but the focus changes from that of understanding the data types to being able to make knowledgeable choices as to the best data structures for a particular application.',
+        units: 1.5,
+        grade: 'B',
+        topics: [
+            'Algorithm design techniques',
+            'Fundamental algorithm analysis',
+            'Time and space complexity',
+            'Asymptotic analysis',
+            'Recursive analysis and recurrence relations',
+            'Proof techniques',
+            'Basic data structures: arrays, lists, stacks and queues',
+            'General purpose sorting algorithms, such as Heap sort, Insertion sort, Merge sort, Quick sort, and Selection sort',
+            'Special purpose sorting algorithms, such as lexicographical sorting and Radix sort',
+            'Priority Queues (including Heaps)',
+            'Binary Search Trees',
+            'Balanced Search Trees',
+            'Mathematical foundations',
+            'Problem abstraction with graphs',
+            'Data structures for graph representation',
+            'Fundamental graph traversal algorithms and applications',
+            'Connectivity and strong connectivity',
+            'Topological sorting',
+        ]
+    },
+
 ];
