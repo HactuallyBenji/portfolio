@@ -1,8 +1,8 @@
-classes = [
+export const classes = [
     {
         title:'Practice of Computer Science',
         code:'CSC106',
-        description:'A general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics: Computer science is a vast and expanding field, and the study of computer science extends beyond computing machines and programming. CSC 106 is a broad survey of the discipline, with a particular focus on interdisciplinary aspects and emerging topics in computer science practice.'
+        description:'A general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics: Computer science is a vast and expanding field, and the study of computer science extends beyond computing machines and programming. CSC 106 is a broad survey of the discipline, with a particular focus on interdisciplinary aspects and emerging topics in computer science practice.',
         units: 1.5,
         grade: 'A+',
         topics: [
@@ -45,7 +45,7 @@ classes = [
     {
         title:'Fundamentals of Programming: Engineering Applications',
         code:'CSC111',
-        description:'CSC 111 is an introduction to computational problem solving and computer programming, with a particular emphasis on applications to engineering problems. This course teaches programming using the C language, which is needed by many engineering disciplines, but the programming skills taught in this course are language-agnostic and can be applied to other programming languages as well.'
+        description:'CSC 111 is an introduction to computational problem solving and computer programming, with a particular emphasis on applications to engineering problems. This course teaches programming using the C language, which is needed by many engineering disciplines, but the programming skills taught in this course are language-agnostic and can be applied to other programming languages as well.',
         unit: 1.5,
         grade: 'A-',
         topics: [
@@ -66,3 +66,4 @@ classes = [
             'Linked lists',
         ]
     }
+];
