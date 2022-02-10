@@ -1,19 +1,19 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './Course.css';
 
 const Course = (props) => {
     const course = props.course;
     const topics = course.topics.map(element => <li key={element.code}>{element}</li>);
     const description = course.description;
-    const grade = course.grade;
+    // const grade = course.grade;
     const [show, setShow] = useState(false);
     const [buttonValue, setButtonValue] = useState('More');
     console.log(buttonValue);
 
     const handleClick = () => {
         setShow(!show);
-        if (buttonValue == 'More') {
+        if (buttonValue === 'More') {
             setButtonValue('Less');
         } else {
             setButtonValue('More');
