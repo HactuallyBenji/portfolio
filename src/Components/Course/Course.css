@@ -7,6 +7,10 @@
 button {
     margin-left: 1.2rem;
     height: 1.4rem;
+    border: 1px solid white;
+    font-family: 'Roboto Mono';
+    color: black;
+    border-radius: 2px;
 }
 
 li {
