@@ -125,5 +125,43 @@ export const classes = [
             'Topological sorting',
         ]
     },
+    {
+        title:'Algorithms and Data Structures: II',
+        code:'CSC226',
+        description:'This course is the continuation of Algorithms and Data Structures I (CSC 225). Students will learn a variety of important data structures, algorithms, and algorithm design techniques. Relevant mathematical concepts are an integral part of this course.',
+        units: 1.5,
+        grade: 'A-',
+        topics: [
+            'Advanced techniques for design, analysis, and implementation of algorithms and data structures',
+            'Algorithmic design paradigms: greedy, divide-and-conquer, dynamic programming, randomization',
+            'Advanced Analysis techniques: amortization and expected running time',
+            'Advanced data structures: random hash families, disjoint sets',
+            'Advanced graph algorithms: network flow, connectivity, minimum spanning trees, shortest paths',
+            'Mathematical tools: graphs and digraphs, graph properties, planar graphs, networks',
+            'String search',
+            'Data compression',
+        ]
+    },
+    {
+        title:'Computer Architecture',
+        code:'CSC230',
+        description:'This course approaches the topics related to computer organization and architecture in two ways: the "what", and the "how". To answer the "what" question, the course presents the fundamental principles of computer organization and architecture. This leads to an introductory understanding of the design of processors, the structure and operation of memory and virtual memory, cache, storage, and pipelining, system integration, and peripherals. The course also provides an introduction to issues of system performance evaluation and the relationship of architecture to system software. Regarding the "how" question, the course provides an introduction to assembly language programming. This leads to a direct and practical understanding of the inner working stages of a processor in relation to the rest of the system, including memory and cache management, interrupt processing and pipelining. Execution of software via assembly language and high level languages is explained in terms of system software tools which include assemblers, compilers, linkers, and loaders.',
+        units: 1.5,
+        grade: 'A',
+        topics: [
+            'Explain the concepts of RISC and CISC computer architecture, emphasizing RISC.',
+            'Explain the elements of an instruction cycle.',
+            'Program in the C language, using C as a cross compiler from a higher level language to an assembly language.',
+            'Summarize the instruction cycle.',
+            'Write programs in assembly language using the AVR RISC architecture as a case study.',
+            'Describe the function of compilers, linkers, loaders, and static and dynamic libraries',
+            'Use the techniques of polling and interrupts to obtain input from peripheral devices',
+            'Describe the characteristics of computer memory hierarchy systems, including performance issues of multiple memory levels',
+            'Describe the concepts of cache and virtual memory',
+            'Distinguish between memory mapping techniques',
+            'Explain how instruction pipelining speeds up over program execution, including describing various pipeline hazards.',
+            'Compare and contrast the various processors and architectures defined in the current literature',
+        ]
+    },
 
 ];

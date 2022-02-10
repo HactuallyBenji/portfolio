@@ -7,7 +7,8 @@ const Nav = (props) => {
     console.log(currentPage);
     return (
         <div>
-            <h1>HactuallyBenji - {currentPage} </h1>
+            <h1>HactuallyBenji</h1>
+            <h3>{currentPage}</h3>
             <Link to="/">Home</Link>
             <Link to="/courses">Courses</Link>
             <Link to="/projects">Projects</Link>

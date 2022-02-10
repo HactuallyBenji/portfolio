@@ -6,6 +6,7 @@ const Course = (props) => {
     const course = props.course;
     const topics = course.topics.map(element => <li key={element.code}>{element}</li>);
     const description = course.description;
+    const grade = course.grade;
     const [show, setShow] = useState(false);
     const [buttonValue, setButtonValue] = useState('More');
     console.log(buttonValue);
@@ -22,8 +23,10 @@ const Course = (props) => {
 
     return (
         <div className="Course">
-            <h3>{course.code}: {course.title}</h3>
-            <input type="submit" value={buttonValue} onClick={handleClick} />
+            <div className="Course-Heading">
+                <h3>{course.code}: {course.title} - {course.grade}</h3>
+                <button type="button" value={buttonValue} onClick={handleClick} >{buttonValue}</button>
+            </div>
         { show ? <div>
             <h4>{description}</h4>
             <ul>
