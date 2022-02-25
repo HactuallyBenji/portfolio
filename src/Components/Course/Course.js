@@ -22,17 +22,19 @@ const Course = (props) => {
     }
 
     return (
-        <div className="Course">
-            <div className="Course-Heading">
-                <h3>{course.code}: {course.title} - {course.grade}</h3>
-                <button type="button" value={buttonValue} onClick={handleClick} >{buttonValue}</button>
+        <div className="content">
+            <div className="Course">
+                <div className="Course-Heading">
+                    <h3>{course.code}: {course.title} - {course.grade}</h3>
+                    <button type="button" value={buttonValue} onClick={handleClick} >{buttonValue}</button>
+                </div>
+            { show ? <div className="more-info">
+                <h4>{description}</h4>
+                <ul>
+                    {topics}
+                </ul>
+                </div> : null }
             </div>
-        { show ? <div className="more-info">
-            <h4>{description}</h4>
-            <ul>
-                {topics}
-            </ul>
-            </div> : null }
         </div>
     );
 };
