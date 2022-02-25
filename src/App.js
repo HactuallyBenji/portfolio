@@ -15,7 +15,7 @@ function App() {
             <span id="name"> Benjamin Miller.</span>
             <br /> 
       
-            <span id="specialization"> I'm a fullstack web developer</span>
+            <span id="specialization"> I'm a fullstack web developer.</span>
 
             <p>
                 I'm a software engineer in my final year at the University of Victoria studying Computer Science,
