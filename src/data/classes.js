@@ -5,6 +5,7 @@ export const classes = [
         description:'A general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics: Computer science is a vast and expanding field, and the study of computer science extends beyond computing machines and programming. CSC 106 is a broad survey of the discipline, with a particular focus on interdisciplinary aspects and emerging topics in computer science practice.',
         units: 1.5,
         grade: 'A+',
+        year: 1,
         topics: [
             'History of computers and computational science',
             'Data management and representation',
@@ -48,6 +49,7 @@ export const classes = [
         description:'CSC 111 is an introduction to computational problem solving and computer programming, with a particular emphasis on applications to engineering problems. This course teaches programming using the C language, which is needed by many engineering disciplines, but the programming skills taught in this course are language-agnostic and can be applied to other programming languages as well.',
         unit: 1.5,
         grade: 'A-',
+        year: 1,
         topics: [
             'The development lifecycle',
             'Development environments',
@@ -72,6 +74,7 @@ export const classes = [
         description:'This course introduces two fundamental programming concepts: abstract data types and recursion; It examines and applies these concepts within the context of an object-oriented approach to programming; It introduces techniques for reasoning about the efficiency of algorithms and data structures; It studies foundational approaches to organizing data and computations.',
         units: 1.5,
         grade: 'B',
+        year: 1,
         topics: [
             'A review of programming in Java',
             'The design, definition and manipulation of simple data objects',
@@ -89,6 +92,7 @@ export const classes = [
         description:'An introduction for non-specialists to the Internet, the World-Wide-Web (WWW), and front-end application development. Students will learn how to create dynamic web applications by making numerous web technologies work together. Each lab, homework, and project in the course will consist of building a rich, interactive, dynamic web application, using basic computer science and programming principles.',
         units: 1.5,
         grade: 'A+',
+        year: 1,
         topics: [
             'Internet and the WWW',
             'W3C Standards and HTML5',
@@ -104,6 +108,7 @@ export const classes = [
         description:'The goal of this class is to illustrate this process and develop these skills starting with some traditional problems, algorithms and data structures. The performance of a program on small inputs (typical in introductory computer science courses) gives no indication of how an algorithm will perform on the large inputs often found in real applications. Paper and pencil techniques are presented for analysing algorithms for time and space requirements on large inputs without requiring the effort of implementation. Algorithms are compared with respect to their worst, average, and best case performances. The techniques learned in the course are applied to well-studied classical problems including searching, sorting, and some graph theory applications. The study of abstract data types is continued from CSC 115 but the focus changes from that of understanding the data types to being able to make knowledgeable choices as to the best data structures for a particular application.',
         units: 1.5,
         grade: 'B',
+        year: 2,
         topics: [
             'Algorithm design techniques',
             'Fundamental algorithm analysis',
@@ -131,6 +136,7 @@ export const classes = [
         description:'This course is the continuation of Algorithms and Data Structures I (CSC 225). Students will learn a variety of important data structures, algorithms, and algorithm design techniques. Relevant mathematical concepts are an integral part of this course.',
         units: 1.5,
         grade: 'A-',
+        year: 2,
         topics: [
             'Advanced techniques for design, analysis, and implementation of algorithms and data structures',
             'Algorithmic design paradigms: greedy, divide-and-conquer, dynamic programming, randomization',
@@ -148,6 +154,7 @@ export const classes = [
         description:'This course approaches the topics related to computer organization and architecture in two ways: the "what", and the "how". To answer the "what" question, the course presents the fundamental principles of computer organization and architecture. This leads to an introductory understanding of the design of processors, the structure and operation of memory and virtual memory, cache, storage, and pipelining, system integration, and peripherals. The course also provides an introduction to issues of system performance evaluation and the relationship of architecture to system software. Regarding the "how" question, the course provides an introduction to assembly language programming. This leads to a direct and practical understanding of the inner working stages of a processor in relation to the rest of the system, including memory and cache management, interrupt processing and pipelining. Execution of software via assembly language and high level languages is explained in terms of system software tools which include assemblers, compilers, linkers, and loaders.',
         units: 1.5,
         grade: 'A',
+        year: 2,
         topics: [
             'Explain the concepts of RISC and CISC computer architecture, emphasizing RISC.',
             'Explain the elements of an instruction cycle.',
@@ -169,6 +176,7 @@ export const classes = [
         description:'We will use formal models to investigate the nature and limits of computation. Ultimately, our goal is to classify problems computationally as either "easy" or "hard". To do that, we need to figure out which problems qualify, that is, which problems are even computable. To detemenire if a problem is computable, we need to devise a computational model. So, we will start by exploring computational models and their properties, then we will use these models to determine which problems are computable and finally we will categorize those computatble problems according to their complexity.',
         units: 1.5,
         grade: 'A-',
+        year: 3,
         topics: [
             'Formal definitions of computation, languages and computability',
             'Models of computation: finite state automata, grammars and Turing machines',
@@ -182,6 +190,7 @@ export const classes = [
         description:'To introduce students to the concepts of roundoff error, truncation error, numerical stability and condition, Taylor polynomial approximations; to derive and apply some fundamental algorithms for solving scientific and engineering problems: roots of nonlinear equations, systems of linear equations, polynomial and spline interpolation, numerical differentiation and integration, numerical solutions of ordinary differential equations.',
         units: 1.5,
         grade: 'B+',
+        year: 3,
         topics: [
             'MATLAB',
             'Approximations and roundoff errors',
@@ -201,6 +210,7 @@ export const classes = [
         description:'Fundamentals of logic design, computer organization and hardware components of computers and embedded systems and the development of a structured design methodology. An introduction to Hardware Description Languages and their implementation, finite state machines and tools for system design, and the testing of digital systems. Topics include Boolean algebra, combinational and sequential circuits, memory organization, buses and arithmetic units, basic microprocessor design.',
         units: 1.5,
         grade: 'A-',
+        year: 3,
         topics: [
             'Boolean algebra, logic gates, combinational circuits',
             'Simplification and design algorithms',
@@ -222,6 +232,7 @@ export const classes = [
         description:'To understand how a set of computing resources can be shared safely, efficiently, and effectively among many users, including the major concepts of modern operating systems and the relationship between the OS and the architecture of computer systems.',
         units: 1.5,
         grade: 'B-',
+        year: 3,
         topics: [
             'Introduction to Operating Systems',
             'Operating system structures',
@@ -237,6 +248,7 @@ export const classes = [
         description:'The course is about the basics of the TCP/IP protocol stack, which empowers the Internet that connects "everything" and "everyone" these days.',
         units: 1.5,
         grade:'B-',
+        year: 3,
         topics: [
             'Internet/CA**Net/UVicNet overview;',
             'Access network technologies: basics;',
@@ -269,6 +281,7 @@ export const classes = [
         description:'This course is an introduction to database systems. Topics include database design, query languages, query optimization, concurrency control, and recovery from failures.',
         units: 1.5,
         grade: 'A',
+        year: 3,
         topics: [
             'Database design',
             'Relational Algebra',
@@ -286,6 +299,7 @@ export const classes = [
         description:'This course covers the basic principles of microeconomic analysis. Microeconomics consists of theories of the decision making of economic agents (consumers and producers) and their interaction through markets. The objectives and constraints that direct the decision making of economic agents will be examined in some detail. The outcome of their interaction will depend on the nature of the market. Markets may be competitive or characterized by some form of imperfect competition or monopoly. Markets may also be subject to various types of market failure, and are affected by government interventions and regulations. The concept of economic efficiency provides a basis for the appraisal of market performance and of government intervention.',
         units: 1.5,
         grade: 'TBD',
+        year: 1,
         topics: [
             'Production & Trade',
             'Demand, Supply, and Equilibrium',
@@ -302,6 +316,7 @@ export const classes = [
         description:'The principles of macroeconomic analysis with special reference to fluctuations in income and prices, monetary and fiscal policies for economic stabilization.',
         units: 1.5,
         grade: 'A',
+        year: 1,
         topics: [
             'Ten Principles of Economics, Chapter 1; Thinking like an economist, Chapter 2',
             'Measuring a Nation’s Income, Chapter 5',
@@ -324,6 +339,7 @@ export const classes = [
         description:'ENGR 110 is a 2.5 unit course, in which instruction and activities in academic writing and engineering design are presented in an integrated manner. This course fulfills the Academic Writing Requirement of the University of Victoria.',
         units: 2.5,
         grade: 'A-',
+        year: 1,
         topics: [
             'Use active reading strategies to comprehend challenging texts',
             'Identify the main ideas and supporting details in what they read',
@@ -354,6 +370,7 @@ export const classes = [
         description:'Awareness of the role and responsibilities of Professional Engineers in society with respect to the environment, ethics, equity, public and worker safety and health considerations. Introduction to technical and other forms of work term and/or work experience report preparation, understanding national and international placement standards, WorkSafeBC standards, engineering logbooks. Development of effective interview techniques, skill assessment and analysis, career management and development. Preparation of resumés and cover letters.',
         units: 2.5,
         grade:'A+',
+        year: 1,
         topics: [
             'Interview techniques',
             'Skill assessment and analysis',
@@ -367,6 +384,7 @@ export const classes = [
         description:'This course offers a practical introduction to essential skills and strategies you will need to communicate effectively in the technical workplace. Nearly every job ad you read requests candidates with the following qualities: • Excellent communications skills • The ability to work effectively as part of a team This course is designed to develop your skills as a writer and presenter, practice the techniques and strategies used by technical writers, and work collaboratively with other students to compose a formal technical report. This will ready you to meet the Faculty of Engineering’s requirement, following co-op, for you to produce a detailed, properly structured and formatted co-op work term report.',
         units: 0.5,
         grade:'B+',
+        year: 2,
         topics: [
             'Apply a problem-solving approach to any communication task, identifying purpose, audience, and an appropriate production and delivery plan to achieve intended outcomes',
             'Apply academic research, analysis, and critical thinking to determine design feasibility: develop a research plan; gather and document information from primary and secondary sources (using IEEE citation style); analyze and evaluate data to arrive at an evidence-based recommendation',
@@ -386,6 +404,7 @@ export const classes = [
         description:'This course is the first in a two-course (MATH 100 and MATH 101) introduction to single variable calculus intended for students who plan to specialize in one or more of mathematics, statistics, physics, chemistry, computer science, engineering, economics (in the B.Sc. program), or mathematics education (secondary program).',
         units: 1.5,
         grade:'A-',
+        year: 1,
         topics: [
             'review of analytic geometry;', 
             'functions and graphs;', 
@@ -405,6 +424,7 @@ export const classes = [
         description:'By the end of the semester, you will have learned many integration techniques, but being able to perform each individual technique is not enough to successfully complete this course. It is also crucial to learn how to determine when to use each technique. You will learn several applications of the integral by finding volume of solids, arc-length of curves, and solving exponential growth and decay problems. In this course, we will learn about infinite sequences and series (which is an infinite list of numbers and an infinite sum of numbers). We will learn what it means for these things to converge and diverge, and we will learn a variety of tests to check this. Again, much like integration techniques, we will learn these tests separately but the main goal is to learn when it is appropriate to apply each test. Our final unit of the course will be looking at parametric equations. This is something that helps model a large variety of scenarios we encounter in many of the sciences. We will learn what these equations look like and how to do some familiar calculus with these types of equations.',
         units: 1.5,
         grade: 'P',
+        year: 1,
         topics: [
             'various integration methods (substitution method, integration by parts, trigonometric',
             'substitution, partial fractions, integral tables);',
@@ -441,6 +461,7 @@ export const classes = [
         description:'Matrix Algebra for Engineers',
         units: 1.5,
         grade: 'B',
+        year: 1,
         topics: [
             'Complex numbers;', 
             'matrices and basic matrix operations;', 
@@ -458,6 +479,7 @@ export const classes = [
         description:'Logic and quantifiers, basic set theory, mathematical induction and recursive definitions, divide and conquer recurrence relations, properties of integers, counting, functions and relations, countable and uncountable sets, asymptotic notation.',
         units: 1.5,
         grade:'C+',
+        year: 1,
         topics: [
             'Logic and quantifiers', 
             'basic set theory', 
@@ -476,6 +498,7 @@ export const classes = [
         description:'Vectors, curves, and surfaces in space; partial differentiation; directional derivatives and the gradient vector; Taylor\'s theorem for a function of two variables; introduction to differential equations.',
         units: 1.5,
         grade:'A-',
+        year: 2,
         topics: [
             'Vectors', 
             'curves and surfaces in space;', 
@@ -491,6 +514,7 @@ export const classes = [
         description:'Graph theory, counting, combinatorial arguments and proofs, inclusion-exclusion, partial orders and equivalence relations, deriving and solving recurrence relations, generating functions.',
         units: 1.5,
         grade:'A-',
+        year: 2,
         topics: [
             'Graph theory', 
             'counting', 
@@ -507,6 +531,7 @@ export const classes = [
         description:'When we think critically, we don’t accept things simply on faith. Instead, we care about whether  we have good reasons for what we think and do. Having good reasons increases the probability  that our beliefs are true and our actions successful. This in turn gives us greater control over our  lives and improves the chances of accomplishing our goals. This course aims to develop critical  thinking skills by introducing students to a set of principles for assessing when we do have good  reasons and when we don’t. In studying these principles, we will use the media (including social  media) as a case study running throughout the entire course. But the principles themselves apply  much more widely – for instance, to academic reading and writing, business, politics, and social  interactions. Therefore, the course is not focused on a particular academic discipline. Instead, it  develops key analytic skills that will serve students well in a wide variety of both academic and  non-academic contexts. Topics to be covered include argument, deductive and inductive  reasoning, common mistakes in reasoning, bias, experts, and scientific reasoning. All of these  topics will be treated informally and non-technically, with a focus on ordinary language and  familiar situations. In particular, we will not use any mathematical or formal-logical techniques.',
         units: 1.5,
         grade: 'TBD',
+        year: 2,
         topics: [
             'assessing the credibility of claims and deciding which sources of information to trust',
             'constructing arguments to support your own claims',
@@ -526,6 +551,7 @@ export const classes = [
         description:'This course will examine fundamental philosophical questions regarding the nature of the mind. Specifically: What is the relationship between the mind and the body? Is the mind nothing more than the brain, or is it something distinct? Is the brain a kind of computer? What is consciousness, and what is required for a scientific explanation of it?',
         units: 1.5,
         grade:'TBD',
+        year: 2,
         topics: [
             'Substance Dualism',
             'Behaviourism',
@@ -544,6 +570,7 @@ export const classes = [
         description:'This course provides an introduction to the Critique of Pure Reason, one of the central texts in the history  of philosophy. Its guiding theme is Kant’s attempt to vindicate the idea that metaphysics provides us with a special kind of non-empirical knowledge. Kant is convinced that (i) any genuinely philosophical  knowledge is metaphysical knowledge; (ii) the very possibility of such knowledge is called into doubt by  prevalent conceptions of the human mind (such as those of Descartes, Locke, Leibniz, and Hume); and  (iii) assuaging this doubt (and thus vindicating metaphysical knowledge) requires a careful analysis of  human cognitive capacities. In this course we study the account of our cognitive capacities that Kant  proposes and ask whether he succeeds in vindicating metaphysical knowledge. In particular, we consider  Kant’s claim that the two most basic capacities, sense-perception and conceptual thought, are distinct in  nature and yet are required to cooperate in a particular way if there is to be any knowledge at all. In  considering this claim we will discuss the following topics: spatial representation; concepts; the relation  between empirical knowledge and a priori knowledge; self-consciousness; causality; idealism; and free  will. The focus will be on a close study of Kant’s text.',
         units: 1.5,
         grade:'TBD',
+        year: 3,
         topics: [
             'acquire knowledge of Kant’s central views in metaphysics, epistemology, and philosophy of mind;',
             'come to understand some of the considerations motivating these views as well as some of the problems they face;',
@@ -558,6 +585,7 @@ export const classes = [
         description:'This course surveys the ideas of a group of ancient Greek thinkers who inaugurated a new method of investigating and explaining the natural world. Ranging geographically in the Mediterranean from Turkey to Sicily and historically from the 6th to the 5th centuries BCE, they were united by the Greek language and a shared methodology of rationally explaining the world by means of its own inherent natural principles. These thinkers, sometimes misleadingly called ‘Presocratics’ (some were contemporaries of Socrates), were the first recognizable natural scientists and philosophers in the Western tradition. By originating naturalistic, rational and explanatory accounts of the world, these thinkers shaped the kinds of questions, answers and methods employed in subsequent philosophical and scientific inquiry up to and including the present day. Among the thinkers whose views we will examine are: Thales, Anaximander, Anaximenes, Xenophanes, Parmenides, Zeno, Pythagoras, Heraclitus, Democritus and Leucippus, Anaxagoras, and Empedocles. Our focus will be on their physical and metaphysical views and our goal will be the articulation of a clear and precise account of their views and their methods of argument and inquiry.',
         units: 1.5,
         grade:'TBD',
+        year: 3,
         topics: [
             'The Early Ionians I: Thales & Anaximander',
             'The Early Ionians II: Anaximenes & Xenophanes',
@@ -577,6 +605,7 @@ export const classes = [
         description:'Newton\'s laws; particle dynamics and curvilinear motion; force and momentum; kinetic and potential energy; circular and rotational motion; thermal physics; gravitational and electric forces. Engineering and Physical Science applications.',
         units: 1.5,
         grade:'C+',
+        year: 1,
         topics: [
             'Vectors',
             'Translational Equilibrium',
@@ -597,6 +626,7 @@ export const classes = [
         description:'Systematic methods for designing, coding, testing and documenting medium-sized programs. Tools and techniques to promote programming productivity and software quality. Topics include specifications, code review and inspection techniques, testing and debugging methods and tools, file system navigation, scripting languages, software tools, environments, instrumenting and profiling and the fundamentals of software configuration management.',
         units: 1.5,
         grade:'B-',
+        year: 2,
         topics: [
             'Linux command-line basics',
             'Multi-version software development',
@@ -615,6 +645,7 @@ export const classes = [
         description:'The focus of this course is the practical application of testing in a modern software development environment. Students will be exposed to a variety of industry standard languages, tools and frameworks while applying testing techniques to improve the quality of multi-component software product.',
         units: 1.5,
         grade:'A+',
+        year: 2,
         topics: [
             'Software specification',
             'Agile software practices',
@@ -637,6 +668,7 @@ export const classes = [
         description:'This course provides a comprehensive introduction to the field of human computer interaction (HCI). It focuses on the design and evaluation of usable computer interfaces.',
         units: 1.5,
         grade:'A',
+        year: 3,
         topics: [
             'Design Guidelines',
             'Industrial Design',
@@ -654,6 +686,7 @@ export const classes = [
         description:'Combines a range of topics integral to the analysis of requirements, design, implementation, and testing of a medium-scale software system with the practical experience of implementing such a project as a member of a software engineering team. Introduces requirements engineering, specifications, software life cycle models and methods for requirements engineering.',
         units: 1.5,
         grade:'A+',
+        year: 3,
         topics: [
             'requirements elicitation',
             'requirements analysis, modelling and negotiation',
@@ -672,6 +705,7 @@ export const classes = [
         description:'Security Engineering is about building systems to remain secure in the face of malice, error or mischance. The objective of this course is to introduce students to a broad range of topics related to this discipline, including an overview of computer security, protection, disaster planning, and recovery. Risk analysis and security plans. Basics of cryptography. Public key cryptography and protocols. Security models, kernel design and systems testing. Database, network and Web security. The course discusses applications which need various combinations of confidentiality, availability, integrity and covertness properties; mechanisms to incorporate these properties in systems. Policy and legal issues are also covered.',
         units: 1.5,
         grade:'A',
+        year: 3,
         topics: [
             'What is Security Engineering?',
             'Threat Modelling and Design',
@@ -693,6 +727,7 @@ export const classes = [
         description:'This course is designed to familiarize students with key security concepts and principles. The course will reinforce ideas through examples and case studies. Students will understand the importance of information security and privacy and balancing the needs for security with usability.',
         units: 1.5,
         grade:'TBD',
+        year: 4,
         topics: [
             'security and risk management',
             'asset security',
@@ -707,10 +742,11 @@ export const classes = [
     },
     {
         title:'Computation for Cognitive Augmentation',
-        code:'SENG380C',
+        code:'SENG480C',
         description:'Computers and algorithms have long been used by people to complete tasks that would be tedious, too difficult, or would take too long for humans. We also routinely use technologies to preserve memories, retrieve data faster and support cognitive activities that would not be possible without help. This course reviews and applies the principles, techniques and conceptual paradigms that enable humans to take advantage of computers, from the basics of calculation, to the modern pattern-finding that deep learning algorithms support. The course examines both sides of the coin: human aspects of cognition such as memory, pattern finding, calculation, decision making and others, as well as the technologies that exist to support these aspects such as information storage and retrieval, intelligible AI, visualization, argumentation support tools, and Brain-Computer Interfaces.',
         units: 1.5,
         grade:'A+',
+        year: 4,
         topics: [
             'Memory',
             'Attention',
@@ -729,6 +765,7 @@ export const classes = [
         description:'Using (interactive) graphics to explore and identify patterns in data is an approach increasingly adopted in modern data analysis, communication, and decision making. Information visualization is a great tool for uncovering new knowledge, promoting data-driven awareness, and decision making. Going beyond traditional ideas of charts and graphs, information visualization is used in a range of disciplines from data science, journalism, analytics, systems analysis, policy making, health sciences, geography, graphic design and visual arts. Yet the lack of flexible tools for creating data visualization and lack of people with skills to use them means that few are in a position to produce data visualizations themselves. This module is designed to equip you with the skills to create and use data visualization applications for use in workplace, research, and everyday life environments. In this hands-on course, you will learn foundational concepts of information visualization and apply these concepts through weekly assignments. There will be a mix of lectures, interactive presentations, and group activities that foster peer learning. The major assessment in this course is a group project where as a team, you will design, develop, implement and possibly evaluate one or several visualization designs that represent a dataset of your choice.',
         units: 1.5,
         grade:'A+',
+        year: 4,
         topics: [
             'Data cases and data dimensions',
             'Visual marks and visual variables',
@@ -746,6 +783,7 @@ export const classes = [
         description:'The mathematical foundations of statistical inference are introduced and illustrated with examples from a variety of disciplines.',
         units: 1.5,
         grade:'A',
+        year: 2,
         topics: [
             'Descriptive statistics', 
             'elementary probability theory;', 
