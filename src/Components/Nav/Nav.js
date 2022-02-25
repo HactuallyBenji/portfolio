@@ -6,14 +6,14 @@ const Nav = (props) => {
     const currentPage = props.page;
     console.log(currentPage);
     return (
-        <div>
+        <nav>
             <h1>HactuallyBenji</h1>
             <h3>{currentPage}</h3>
             <Link to="/">Home</Link>
             <Link to="/experience">Experience</Link>
             <Link to="/courses">Courses</Link>
             <Link to="/projects">Projects</Link>
-        </div>
+        </nav>
     );
 };
 
