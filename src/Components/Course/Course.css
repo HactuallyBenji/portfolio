@@ -5,6 +5,7 @@
 }
 
 .Course-Heading {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,15 +32,13 @@
     width: 65ch;
     text-align: center;
     margin: auto;
+    padding: 2rem;
 }
 
 button {
-    margin-left: 1.2rem;
-    height: 1.4rem;
-    border: 1px solid white;
-    font-family: 'Roboto Mono';
-    color: black;
+    font-family: 'Lato';
     border-radius: 2px;
+    position: relative;
 }
 
 li {

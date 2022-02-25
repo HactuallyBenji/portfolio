@@ -1,5 +1,15 @@
+:root {
+    --main-bg-color: rgba(24, 54, 66, 1);
+    --main-secondary-color: rgba(49, 61, 90, 1);
+    --accent-light: rgba(234, 234, 234, 1);
+}
+
 .Courses {
   text-align: center;
+}
+
+.main {
+    margin: 1rem 0;
 }
 
 .Courses-logo {
@@ -8,7 +18,41 @@
 }
 
 button {
+    background-color: rgba(255,255,255,0);
+    vertical-align: middle;
+    color: rgba(49, 61, 90, 1);
+    height: 0.5rem;
+    font-size: 1rem;
+    line-height: 0rem;
+    padding: 0.5rem;
+    border: 1px solid rgba(49, 61, 90, 1);
+}
+
+button:hover {
+    position: relative;
+    left: 1px;
+    top: 1px;
+    color: rgba(24, 54, 66, 1);
+    cursor: pointer;
+}
+
+.sorting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sorting button {
     margin: 2rem;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.sorting button:hover {
+    cursor: pointer;
+    color: var(--accent-light);
 }
 
 @media (prefers-reduced-motion: no-preference) {

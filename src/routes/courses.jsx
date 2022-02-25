@@ -26,14 +26,16 @@ const Courses = () => {
     return (
         <div className="Courses">
             <Nav page="Courses" />
-            <div className="sorting">
-                <button value="1" onClick={handleClick}>Year 001</button>
-                <button value="2" onClick={handleClick}>Year 010</button>
-                <button value="3" onClick={handleClick}>Year 011</button>
-                <button value="4" onClick={handleClick}>Year 100</button>
-                <button value="all" onClick={handleClick}>All Years</button>
-            </div>
-            {courses}
+                <div className="main">
+                    <div className="sorting">
+                        <button value="1" onClick={handleClick}>Year 001</button>
+                        <button value="2" onClick={handleClick}>Year 010</button>
+                        <button value="3" onClick={handleClick}>Year 011</button>
+                        <button id="four" value="4" onClick={handleClick}>Year 100</button>
+                        <button value="all" onClick={handleClick}>All Years</button>
+                    </div>
+                    {courses}
+                </div>
         </div>
     );
 };

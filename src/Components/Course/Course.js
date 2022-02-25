@@ -26,8 +26,8 @@ const Course = (props) => {
             <div className="Course">
                 <div className="Course-Heading">
                     <h3>{course.code}: {course.title} - {course.grade}</h3>
-                    <button type="button" value={buttonValue} onClick={handleClick} >{buttonValue}</button>
                 </div>
+                <button type="button" value={buttonValue} onClick={handleClick} >{buttonValue}</button>
             { show ? <div className="more-info">
                 <h4>{description}</h4>
                 <ul>
