@@ -10,6 +10,7 @@ const Nav = (props) => {
             <h1>HactuallyBenji</h1>
             <h3>{currentPage}</h3>
             <Link to="/">Home</Link>
+            <Link to="/experience">Experience</Link>
             <Link to="/courses">Courses</Link>
             <Link to="/projects">Projects</Link>
         </div>

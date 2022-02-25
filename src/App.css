@@ -25,6 +25,35 @@ body {
     justify-content: center;
 }
 
+.introduction {
+    margin: auto;
+    margin-top: 2rem;
+    width: 80ch;
+}
+
+.introduction p {
+    margin: auto;
+    width: 60ch;
+}
+
+.introduction ul {
+    text-align: center;
+}
+
+#technologies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 3rem;
+}
+
+#specialization {
+    font-size: 2.5rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

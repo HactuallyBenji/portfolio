@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Experience from './routes/experience';
 import Courses from './routes/courses';
 import Projects from './routes/projects';
 import reportWebVitals from './reportWebVitals';
@@ -16,6 +17,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App />} />
+            <Route path="experience" element={<Experience />} />
             <Route path="courses" element={<Courses />} />
             <Route path="projects" element={<Projects />} />
         </Routes>
