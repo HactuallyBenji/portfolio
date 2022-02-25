@@ -6,8 +6,8 @@ body::-webkit-scrollbar {
 }
 
 body {
-    background-color: rgb(22, 26, 23);
-    color: white;
+    background-color: rgba(24, 54, 66, 1);
+    color: rgba(234, 234, 234, 1);
     font-family: 'Lato';
 }
 
@@ -29,15 +29,19 @@ body {
 .introduction {
     margin: auto;
     margin-top: 2rem;
-    width: 80ch;
+    width: 100ch;
     text-align: left;
 }
 
 .introduction p {
     text-align: left;
     margin: auto;
-    width: 60ch;
+    width: 80ch;
     padding: 1rem;
+}
+
+#name-specialization {
+    width: 100ch;
 }
 
 .introduction li {

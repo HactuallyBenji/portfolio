@@ -12,9 +12,8 @@
 
 .Course {
     text-align: center;
-    border: 2px solid white;
     border-radius: 5px;
-    background-color: slategray;
+    background-color: rgba(49, 61, 90, 1);
     padding: 1rem;
     box-shadow: 2px 4px 6px black;
     transition: 0.25s;
@@ -24,7 +23,8 @@
     position: relative;
     left: 2px;
     top: 1px;
-    background-color: grey;
+    color: rgba(24, 54, 66, 1);
+    background-color: rgba(203, 197, 234, 1);
 }
 
 .more-info {
