@@ -1,0 +1,51 @@
+.content {
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+}
+
+.Course-Heading {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Course {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(49, 61, 90, 1);
+    padding: 1rem;
+    box-shadow: 2px 4px 6px black;
+    transition: 0.25s;
+}
+
+.Course:hover {
+    position: relative;
+    left: 2px;
+    top: 1px;
+    color: rgba(24, 54, 66, 1);
+    background-color: rgba(203, 197, 234, 1);
+}
+
+.more-info {
+    width: 65ch;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+button {
+    font-family: 'Lato';
+    border-radius: 2px;
+    position: relative;
+}
+
+li {
+    list-style-type: square;
+}
+
+ul {
+    text-align: left;
+    margin: 20px;
+}
