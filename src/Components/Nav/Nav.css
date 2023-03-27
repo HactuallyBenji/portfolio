@@ -9,5 +9,14 @@ h3 {
 
 a {
     padding: 20px;
-    color: orange;
+    color: #a19f9f;
+}
+
+.Navigation-bar {
+    background-color: #404040;
+    height: 4rem;
+    border-bottom: 10px solid #36bf5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -298,7 +298,7 @@ export const classes = [
         code:'ECON103',
         description:'This course covers the basic principles of microeconomic analysis. Microeconomics consists of theories of the decision making of economic agents (consumers and producers) and their interaction through markets. The objectives and constraints that direct the decision making of economic agents will be examined in some detail. The outcome of their interaction will depend on the nature of the market. Markets may be competitive or characterized by some form of imperfect competition or monopoly. Markets may also be subject to various types of market failure, and are affected by government interventions and regulations. The concept of economic efficiency provides a basis for the appraisal of market performance and of government intervention.',
         units: 1.5,
-        grade: 'TBD',
+        grade: 'A-',
         year: 1,
         topics: [
             'Production & Trade',
@@ -530,7 +530,7 @@ export const classes = [
         code:'PHIL201',
         description:'When we think critically, we don’t accept things simply on faith. Instead, we care about whether  we have good reasons for what we think and do. Having good reasons increases the probability  that our beliefs are true and our actions successful. This in turn gives us greater control over our  lives and improves the chances of accomplishing our goals. This course aims to develop critical  thinking skills by introducing students to a set of principles for assessing when we do have good  reasons and when we don’t. In studying these principles, we will use the media (including social  media) as a case study running throughout the entire course. But the principles themselves apply  much more widely – for instance, to academic reading and writing, business, politics, and social  interactions. Therefore, the course is not focused on a particular academic discipline. Instead, it  develops key analytic skills that will serve students well in a wide variety of both academic and  non-academic contexts. Topics to be covered include argument, deductive and inductive  reasoning, common mistakes in reasoning, bias, experts, and scientific reasoning. All of these  topics will be treated informally and non-technically, with a focus on ordinary language and  familiar situations. In particular, we will not use any mathematical or formal-logical techniques.',
         units: 1.5,
-        grade: 'TBD',
+        grade: 'A',
         year: 2,
         topics: [
             'assessing the credibility of claims and deciding which sources of information to trust',
@@ -550,7 +550,7 @@ export const classes = [
         code:'PHIL260',
         description:'This course will examine fundamental philosophical questions regarding the nature of the mind. Specifically: What is the relationship between the mind and the body? Is the mind nothing more than the brain, or is it something distinct? Is the brain a kind of computer? What is consciousness, and what is required for a scientific explanation of it?',
         units: 1.5,
-        grade:'TBD',
+        grade:'A',
         year: 2,
         topics: [
             'Substance Dualism',
@@ -569,7 +569,7 @@ export const classes = [
         code:'PHIL309',
         description:'This course provides an introduction to the Critique of Pure Reason, one of the central texts in the history  of philosophy. Its guiding theme is Kant’s attempt to vindicate the idea that metaphysics provides us with a special kind of non-empirical knowledge. Kant is convinced that (i) any genuinely philosophical  knowledge is metaphysical knowledge; (ii) the very possibility of such knowledge is called into doubt by  prevalent conceptions of the human mind (such as those of Descartes, Locke, Leibniz, and Hume); and  (iii) assuaging this doubt (and thus vindicating metaphysical knowledge) requires a careful analysis of  human cognitive capacities. In this course we study the account of our cognitive capacities that Kant  proposes and ask whether he succeeds in vindicating metaphysical knowledge. In particular, we consider  Kant’s claim that the two most basic capacities, sense-perception and conceptual thought, are distinct in  nature and yet are required to cooperate in a particular way if there is to be any knowledge at all. In  considering this claim we will discuss the following topics: spatial representation; concepts; the relation  between empirical knowledge and a priori knowledge; self-consciousness; causality; idealism; and free  will. The focus will be on a close study of Kant’s text.',
         units: 1.5,
-        grade:'TBD',
+        grade:'A-',
         year: 3,
         topics: [
             'acquire knowledge of Kant’s central views in metaphysics, epistemology, and philosophy of mind;',
@@ -584,7 +584,7 @@ export const classes = [
         code:'PHIL379',
         description:'This course surveys the ideas of a group of ancient Greek thinkers who inaugurated a new method of investigating and explaining the natural world. Ranging geographically in the Mediterranean from Turkey to Sicily and historically from the 6th to the 5th centuries BCE, they were united by the Greek language and a shared methodology of rationally explaining the world by means of its own inherent natural principles. These thinkers, sometimes misleadingly called ‘Presocratics’ (some were contemporaries of Socrates), were the first recognizable natural scientists and philosophers in the Western tradition. By originating naturalistic, rational and explanatory accounts of the world, these thinkers shaped the kinds of questions, answers and methods employed in subsequent philosophical and scientific inquiry up to and including the present day. Among the thinkers whose views we will examine are: Thales, Anaximander, Anaximenes, Xenophanes, Parmenides, Zeno, Pythagoras, Heraclitus, Democritus and Leucippus, Anaxagoras, and Empedocles. Our focus will be on their physical and metaphysical views and our goal will be the articulation of a clear and precise account of their views and their methods of argument and inquiry.',
         units: 1.5,
-        grade:'TBD',
+        grade:'B',
         year: 3,
         topics: [
             'The Early Ionians I: Thales & Anaximander',
@@ -726,7 +726,7 @@ export const classes = [
         code:'SENG460',
         description:'This course is designed to familiarize students with key security concepts and principles. The course will reinforce ideas through examples and case studies. Students will understand the importance of information security and privacy and balancing the needs for security with usability.',
         units: 1.5,
-        grade:'TBD',
+        grade:'A+',
         year: 4,
         topics: [
             'security and risk management',

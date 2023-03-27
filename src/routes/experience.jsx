@@ -1,5 +1,5 @@
 import './experience.css';
-import Nav from '../Components/Nav/Nav.js';
+import Nav from '../components/Nav/Nav.js';
 
 const Experience = () => {
     return (

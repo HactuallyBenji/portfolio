@@ -1,7 +1,7 @@
 import './courses.css';
-import Nav from '../Components/Nav/Nav.js';
+import Nav from '../components/Nav/Nav.js';
 import { classes } from '../data/classes';
-import Course from '../Components/Course/Course.js';
+import Course from '../components/Course/Course.js';
 import { useState } from 'react';
 
 const Courses = () => {

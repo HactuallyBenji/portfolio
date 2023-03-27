@@ -6,9 +6,7 @@ const Nav = (props) => {
     const currentPage = props.page;
     console.log(currentPage);
     return (
-        <nav>
-            <h1>HactuallyBenji</h1>
-            <h3>{currentPage}</h3>
+        <nav className="Navigation-bar">
             <Link to="/">Home</Link>
             <Link to="/courses">Courses</Link>
             <Link to="/projects">Projects</Link>
